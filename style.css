@@ -1,0 +1,107 @@
+body {
+    padding: 0dvh;
+    margin: 0dvh;
+}
+
+
+
+.login-btn{
+    background: #999292;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 2px 1px #000;
+}
+
+button {
+padding: 10px 30px;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+border-radius: 5px;
+}
+
+
+.sign-up-form{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.25);
+    background-color: #fff;
+    height: 400px;
+    box-shadow: 1px 1px 2px 1px black;
+    opacity: 0;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 2000ms  ease-in-out 0ms;
+}
+
+.sign-up-form.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms  ease-in-out 0ms;
+}
+
+/*
+.sign-up-form{
+ display: none;  comment out to see signUpForm
+}
+*/
+
+
+ .close-btn{    /* add these props for close button of font awesome*/
+    position: absolute;
+    font-size: 34px;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 25px;
+    background-color: #e2d8d8;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+
+}
+.container-element{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.sign-up-form,  .container{
+    text-align: center;
+}
+
+label {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.password-input {
+    padding-right: 1px;
+}
+
+
+input {
+     margin-left: 10px;
+    padding: 10px 50px;
+    border-radius: 1px;
+
+}
+
+/*
+#show:checked ~ .sign-up-form{
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+*/
