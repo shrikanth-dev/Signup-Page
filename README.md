@@ -25,12 +25,13 @@ A modal SignUp form with open/close animations, using HTML, CSS, and JavaScript.
 
 ### Screenshot
 
-![](./screenshots/results-summary-component-desktop-img.png)
+![](Signup_Page1.png)
+![](Signup_page2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/shrikanth-dev/Signup-Page)
+- Live Site URL: [live site URL](https://shrikanth-dev.github.io/Signup-Page/)
 
 ### Built with
 
